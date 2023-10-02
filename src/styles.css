@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+.box-black {
+  background-color: black;
+}
+
+.box-blue {
+  background-color: indianred;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
